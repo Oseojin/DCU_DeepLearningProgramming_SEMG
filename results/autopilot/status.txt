@@ -1,0 +1,31 @@
+autopilot  경과 13.62h  남은 예산 10.38h
+갱신 2026-09-25 01:27:27
+
+  hp_lr0.0006_wd0.01_f0        ok       macro-F1 0.9130  acc 0.9132  fold=0
+  hp_lr0.001_wd0.01_f0         ok       macro-F1 0.9001  acc 0.9000  fold=0
+  hp_lr0.0003_wd0.01_f0        ok       macro-F1 0.9104  acc 0.9105  fold=0
+  hp_lr0.0006_wd0.05_f0        ok       macro-F1 0.9026  acc 0.9026  fold=0
+  hp_lr0.0006_wd0.001_f0       ok       macro-F1 0.8997  acc 0.9000  fold=0
+  hp_lr0.001_wd0.05_f0         ok       macro-F1 0.9079  acc 0.9079  fold=0
+  hp_lr0.001_wd0.001_f0        ok       macro-F1 0.9092  acc 0.9092  fold=0
+  hp_lr0.0003_wd0.05_f0        ok       macro-F1 0.9103  acc 0.9105  fold=0
+  hp_lr0.0003_wd0.001_f0       ok       macro-F1 0.9051  acc 0.9053  fold=0
+  hp_lr0.0006_wd0.01_f1        ok       macro-F1 0.9178  acc 0.9184  fold=1
+  hp_lr0.0003_wd0.01_f1        ok       macro-F1 0.9150  acc 0.9158  fold=1
+  hp_lr0.0003_wd0.05_f1        ok       macro-F1 0.9107  acc 0.9118  fold=1
+  hp_b32_f0                    ok       macro-F1 0.9104  acc 0.9105  fold=0
+  hp_b128_f0                   ok       macro-F1 0.9078  acc 0.9079  fold=0
+  hp_ep250_f0                  ok       macro-F1 0.9035  acc 0.9039  fold=0
+  hp_ep400_f0                  ok       macro-F1 0.9012  acc 0.9013  fold=0
+  final_base                   ok       macro-F1 0.9146  acc 0.9147  fold=all
+  abl_no_augment               ok       macro-F1 0.9183  acc 0.9184  fold=all
+  abl_hop150                   ok       macro-F1 0.9025  acc 0.9029  fold=all
+  abl_no_mixup                 ok       macro-F1 0.9124  acc 0.9126  fold=all
+  abl_no_cwtnorm               ok       macro-F1 0.9158  acc 0.9161  fold=all
+  abl_no_ema                   ok       macro-F1 0.9135  acc 0.9137  fold=all
+  final_seed123                ok       macro-F1 0.9039  acc 0.9042  fold=all
+  final_seed2026               ok       macro-F1 0.9147  acc 0.9150  fold=all
+
+  확정 설정: lr=0.0006 wd=0.01 batch=64 epochs=150
+
+  TEST: window 94.11%  k3 98.24%  trial 100.00%

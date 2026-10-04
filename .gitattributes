@@ -1,0 +1,5 @@
+# 데이터 CSV는 줄바꿈(CRLF)까지 바이트 그대로 보존한다.
+# splits.json의 SHA-256 검증이 파일 내용 전체를 해시하므로, 줄바꿈이 바뀌면 학습이 거부된다.
+*.csv -text
+*.pt binary
+*.png binary

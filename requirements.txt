@@ -1,0 +1,7 @@
+torch>=2.11
+torchvision>=0.26
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+PyWavelets>=1.5
+matplotlib>=3.8

@@ -26,9 +26,9 @@
 
 ### 사용한 데이터 및 전처리 방법
 
-**데이터** — 5명(A~E) × 50시행 = **250시행**. 한 시행은 3초(grasp 1초 → rotate 1초 → stop 1초),
+**데이터** — 5명(A\~E) × 50시행 = **250시행**. 한 시행은 3초(grasp 1초 → rotate 1초 → stop 1초),
 1 kHz, 2채널(채널 1 = APB, 채널 2 = ADM)이고 CSV 한 개(3000 × 2)다. 배포본은 이미
-60 Hz notch + 20~500 Hz band-pass 필터링이 되어 있어 추가 필터링을 하지 않았다
+60 Hz notch + 20\~500 Hz band-pass 필터링이 되어 있어 추가 필터링을 하지 않았다
 (`--refilter` 옵션은 재현용으로만 남겨 두었다).
 
 ![시행 1개의 두 채널 파형](docs/images/signal_example.png)
